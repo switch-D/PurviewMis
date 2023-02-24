@@ -1,0 +1,108 @@
+
+body {
+    background: url('https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_1280.jpg') no-repeat;
+    background-size: 100% 130%;
+}
+
+
+#login_box {
+    position: relative;
+    width: 20%;
+    height: 400px;
+    background-color: #00000060;
+    margin: auto;
+    margin-top: 10%;
+    text-align: center;
+    border-radius: 10px;
+    padding: 50px 50px;
+}
+
+h2 {
+    color: #ffffff90;
+    margin-top: 5%;
+}
+
+#input-box {
+    margin-top: 5%;
+    position: relative;
+}
+
+span {
+    color: #fff;
+}
+
+.inputs {
+    border: 0;
+    width: 55%;
+    font-size: 15px;
+    color: #fff;
+    background: transparent;
+    border-bottom: 2px solid #fff;
+    padding: 5px 10px;
+    outline: none;
+    margin-top: 10px;
+}
+
+.tui-checkbox{
+    width:15px;
+    height:15px;
+}
+
+button {
+    margin-top: 30px;
+    width: 60%;
+    height: 30px;
+    border-radius: 10px;
+    border: 0;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    font-size: 15px;
+    background-image: linear-gradient(to right, #30cfd0, #330867);
+    cursor:pointer;
+}
+
+#sign_up {
+    margin-top: 45%;
+    margin-left: 60%;
+}
+
+a {
+    color: #b94648;
+}
+text{
+    color: #ffffff;
+}
+.agebox{
+    border: 0;
+    width: 65%;
+    font-size: 15px;
+    color: #fff;
+    background: transparent;
+    padding: 5px 10px;
+    outline: none;
+    margin-top: 10px;
+}
+.remember{
+    padding-top:15px;
+    width: 90%;
+    height: 40px;
+}
+.remember .error{
+    padding-top: 5px;
+    font-size: 10px;
+    color: red;
+}
+
+.checkCodeBox{
+    width: 400px;
+    height: 50px;
+    display:flex;
+}
+.checkCodeInput{
+/*//水平居中*/
+    justify-content:center;
+/*//垂直居中*/
+    align-items:center;
+}
+
